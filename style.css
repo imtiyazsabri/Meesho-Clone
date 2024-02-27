@@ -1,0 +1,907 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    overscroll-behavior-y:none;
+    overscroll-behavior-x:none;
+}
+
+.main-header{
+    height: 72px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1.2px solid rgb(222, 220, 220);
+    border-bottom: 1.2px solid rgb(222, 220, 220);
+}
+
+.header-logo-container{
+    height: 72px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36px;
+}
+
+.logo{
+    height: 30px;
+}
+
+.input-box i{
+    font-size: 1rem;
+    margin-right: 2px;
+}
+
+.input-box input{
+    height: 21px;
+    width: 348px;
+    color: #ffffff;
+    letter-spacing: 0.025rem;
+    font-size: 16px;
+    border-style: none;
+}
+
+.input-box{
+    width: 400px;
+    border: 1px solid rgb(139, 139, 163);
+    border-radius: 4px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.input-box:hover{
+    border: 2px solid red;
+}
+
+.box-container{
+    height: 72px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3x solid rgb(255, 255, 255);
+    border-radius: 2px 2px 0px 0px;
+}
+
+.dwnl-logo{
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.parg{
+    color: #535367;
+    font-style: normal;
+    font-size: 500;
+    font-weight: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+}
+
+.border:hover{
+    border: 2px solid red;
+}
+
+
+
+
+/* section2 */
+
+.section2{
+    height: 72px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1.2px solid rgb(222, 220, 220);
+}
+
+.sec{
+    color: #535367;
+    font-style: normal;
+    font-size: 500;
+    font-weight: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+}
+
+/* hero section */
+
+.hero-section{
+    height: 3000px;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-first{
+    display: flex;
+    justify-content: center;
+}
+
+.first-col{
+    height: 264px;
+    width: 460px;
+    background-color: #f8f8ff;
+    padding: 40px 45px 40px 48px;
+}
+
+.first-row{
+    height: 170px;
+    width: 300px;
+    color: #353543;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.second-part{
+    height: 60px;
+    width: 370px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 28px;
+    padding: 9px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-part-first-col{
+    height: 40px;
+    width: 110px;
+    background-color: #ffffff;
+    padding-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #535367;
+}
+
+.second-part-first-col img{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(217, 166, 208);
+    border-radius: 50%;
+}
+
+.second-part-first-col span{
+    height: 40px;
+    width: 70px;
+    color: #535367;
+    padding-right: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier demi";
+}
+
+.third-part{
+    height: 30px;
+    width: 280px;
+    background-color: #9f2089;
+    position: relative;
+    margin-top: 25px;
+    color: #ffffff;
+    padding: 10px 28px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-part img{
+    height: 28px;
+    width: 24px;
+}
+
+.third-part span{
+    height: 24px;
+    width: 242px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier demi";
+    padding-right: 16px;
+    text-align: left;
+}
+
+.hero-second{
+    /* background-color: red; */
+    height: 90px;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* color: #353543; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hero-second span{
+    border: 2px solid #f8f8ff;
+    height: 50px;
+    background-color: #f8f8ff;
+    border-radius: 8px;
+    color: #353543;
+}
+
+.hero-third{
+    height: 561px;
+    width: 1060px;
+    background-image: url("images/third\ container.webp");
+    gap: 15px;
+    border-radius: 4px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 90px 24px 35px 24px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+
+.hero-third .third-part-one{
+    height: 429px;
+    width: 400px;
+}
+
+.hero-third .third-part-two{
+    height: 291px;
+    width: 312px;
+}
+
+.hero-third .third-part-three{
+    height: 291px;
+    width: 312px;
+}
+
+
+/* hero forth */
+
+.hero-forth{
+    background-image: url("images/hero-forth.webp");
+    height: 546px;
+    width: 1060px;
+    background-color: #ffffff;
+    background-size: 100% 100%;
+    margin-bottom: 60px;
+    padding-right: 28px;
+    padding-left: 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.view-btn{
+    height: 288px;
+    width: 185px;
+    margin-left: 30px;
+
+}
+
+.view-btn img{
+    height: 70px;
+    width: 185px;
+    color: transparent;
+}
+
+.product{
+    height: 395px;
+    width: 640px;
+    display: flex;
+    margin-left: 190px;
+    margin-bottom: 95px;
+}
+
+.img-content{
+    height: 331px;
+    width: 197px;
+}
+
+.button{
+    height: 64px;
+    width: 175px;
+}
+
+/* hero fifth */
+
+
+.hero-fifth{
+    background-image: url("images/fifth-hero-sec/fifth-container.webp");
+    height: 546px;
+    width: 1060px;
+    background-color: #ffffff;
+    background-size: 100% 100%;
+    margin-bottom: 60px;
+    padding-right: 28px;
+    padding-left: 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+/* hero sixth */
+
+
+.hero-sixth{
+    height: 525px;
+    width: 1106px;
+    background-image: url("images/sixth-hero-sec/sixth-section.webp");
+    border-radius: 4px;
+}
+
+.forth-elm{
+    height: 356px;
+    width: 660px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    text-align: right;
+    position: absolute;
+}
+
+.forth-elm h4{
+    height: 40px;
+    width: 564px;
+    color: #5585f8;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier book";
+    margin-bottom: 16px;
+}
+
+.forth-elm h1{
+    height: 52px;
+    width: 564px;
+    color: #9f2089;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+}
+
+.store{
+    height: 48px;
+    width: 564px;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.play-store .apple-store{
+    height: 48px;
+    width: 180px;
+    background-color: #000000;
+    padding: 6px 25px;
+}
+
+.store img{
+    height: 35px;
+    width: 130px;
+    margin-left: 12px;
+}
+
+/* products-section */
+
+.product-section{
+    padding: 30px;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-heding{
+    height: 68px;
+    width: 960px;
+    color: #353543;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier book";
+    padding-bottom: 28px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.cart{
+    height: 423px;
+    width: 160px;
+    background-color: #ffffff;
+    border: 1px solid rgb(234, 234, 242);
+}
+
+.cart .img1{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart1-img.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img2{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart2.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img3{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart3.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img4{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart4.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img5{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart5.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img6{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart6.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img7{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart7.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img8{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart8.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img9{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart9.webp");
+    background-size: 100% 100%;
+}
+
+
+.cart .img10{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart10.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img11{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart11.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img12{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart12.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img13{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart13.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img14{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart14.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img15{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart15.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img16{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart16.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img17{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart17.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img18{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart18.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img19{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart19.webp");
+    background-size: 100% 100%;
+}
+
+.cart .img20{
+    height: 232px;
+    width: 159px;
+    background-image: url("images/carts/cart20.webp");
+    background-size: 100% 100%;
+}
+
+
+.cart .qunt{
+    height: 28px;
+    width: 56px;
+    background-color: #ffffff;
+    border-top-left-radius: 8px;
+    padding: 2px 4px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 95px;
+}
+
+.qunt span{
+    height: 16px;
+    width: 49px;
+    color: #616173;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Mier demi";
+}
+
+.details p{
+    height: 20px;
+    width: 135px;
+    color: #8b8ba3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    text-align: center;
+}
+
+.details{
+    display: block;
+}
+
+.rate{
+    height: 44px;
+    width: 135px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate h5{
+    height: 32px;
+    width: 109px;
+    color: #353543;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Mier bold";
+}
+
+.rate h5 span{
+    height: 16px;
+    width: 49px;
+    color: #8b8ba3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: "Mier demi";
+}
+
+.delivery{
+    
+    width: 85px;
+    background-color: #f8f8ff;
+    text-align: center;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Mier book";
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.rating-section{
+    height: 52px;
+    width: 135px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.srt{
+    height: 28px;
+    width: 54px;
+    background-color: rgb(35, 187, 117);
+    padding: 4px 8px;
+    border-radius: 16px;
+    color: #ffffff;
+    display: inline;
+    /* padding-left: 4px; */
+}
+
+.rating-section span{
+    height: 42px;
+    width: 95px;
+    color: #8b8ba3;
+    font-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Mier bold";
+    padding-top: 25px;
+}
+
+.rating-section span {
+    margin-left: 8px;
+}
+
+.review{
+    height: 42px;
+    width: 95px;
+    color: #8b8ba3;
+    font-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Mier bold";
+    padding-top: 10px;
+}
+
+.loder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load{
+    height: 20px;
+    width: 100px;
+    background-color: #f8f8ff;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.load h4{
+    text-align: center;
+}
+
+/* footer section */
+
+.footer{
+    height: 450px;
+    width: 100%;
+    background-color: #f8f8ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-footer{
+    height: 350px;
+    width: 320px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    line-height: 16px;
+}
+
+.first-footer h4{
+    height: 80px;
+    width: 305px;
+    color: #353543;
+    font-size: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier book";
+    margin-bottom: 16px;
+}
+
+.first-footer p{
+    height: 48px;
+    width: 305px;
+    color: #616173;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Mier book";
+    margin-bottom: 32px;
+}
+
+.store{
+    height: 50px;
+    width: 305px;
+    gap: 16px;
+    display: flex;
+}
+
+.store img{
+    height: 50px;
+    width: 125px;
+    border-radius: 8px;
+}
+
+
+.second-footer{
+    height: 310px;
+    width: 128px;
+    margin-bottom: 40px;
+    padding-right: 8px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-footer span{
+    color: #616173;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier demi";
+    margin-bottom: 14px;
+}
+
+.third-footer{
+    height: 310px;
+    width: 160px;
+    margin-bottom: 40px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.third-footer div{
+    height: 48px;
+    width: 145px;
+    display: inline-block;
+}
+
+.third-footer div span{
+    color: #616173;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier demi";
+}
+
+.forth-footer{
+    height: 350px;
+    width: 160px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.forth-footer h6{
+    color: #353543;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+    margin-bottom: 16px;
+}
+
+.social-logo{
+    background-color: #f8f8ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.social-logo i{
+    height: 24px;
+    width: 24px;
+}
+
+.fifth-footer{
+    height: 350px;
+    width: 160px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.fifth-footer h6{
+    color: #353543;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+    margin-bottom: 16px;
+}
+
+.fifth-footer p{
+    color: #8b8ba3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
